@@ -1,4 +1,6 @@
-
+import java.util.*;
+public class Contact{
+	private ArrayList <String> contacts;
 public int getNameIndex(String name){
 	for(int i = 0; i<contacts.size(); i++){
 		if(contacts.get(i) == name){
